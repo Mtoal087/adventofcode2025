@@ -30,14 +30,14 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
-//        List<String> lines = readFile("test.txt");
-        List<String> lines = readFile("input.txt");
+        List<String> lines = readFile("test.txt");
+//        List<String> lines = readFile("input.txt");
 
 //        for (String line : lines){
 //            System.out.println(line);
 //        }
 
-        Day6 day = new Day6(lines);
+        Day7 day = new Day7(lines);
         day.run();
     }
 }
